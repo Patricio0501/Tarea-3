@@ -51,7 +51,7 @@ int searchWord(TrieNode* root, const char* word) {
     return (currentNode != NULL && currentNode->isEndOfWord);
 }
 
-int comparacionDePalabras(const void* a, const void* b) {
+int comparisonOfWords(const void* a, const void* b) {
     const Book* bookA = (const Book*)a;
     const Book* bookB = (const Book*)b;
     return strcmp(bookA->title, bookB->title);
