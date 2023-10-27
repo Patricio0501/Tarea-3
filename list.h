@@ -65,7 +65,7 @@ void insertWord(TrieNode* root, const char* word);
 
 int searchWord(TrieNode* root, const char* word);
 
-int comparacionDePalabras(const void* a, const void* b);
+int comparisonOfWords(const void* a, const void* b);
 
 Map createMap(int initialCapacity);
 
