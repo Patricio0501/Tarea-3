@@ -89,7 +89,7 @@ void loadDocuments(TrieNode* root, const char* filenames, BookList* bookList, Ma
 
 void showDocuments(BookList* bookList) {
     // Ordenar los libros por título (si no están ordenados previamente)
-    qsort(bookList->books, bookList->count, sizeof(Book), comparacionDePalabras);
+    qsort(bookList->books, bookList->count, sizeof(Book), comparisonOfWords);
 
     printf("Documentos ordenados por título:\n");
     printf("-----------------------------------\n");
